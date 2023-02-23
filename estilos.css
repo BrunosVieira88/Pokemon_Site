@@ -1,0 +1,61 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #DCDCDC;
+	text-shadow: 2px 2px 2px white;
+	height: 100%;
+}
+/*adicionando a imagem no header*/
+header{
+	background-image: url(imagens/pokemon.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 110%;
+}
+/*logo do Header*/
+#logo_header{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	width: 75%;
+	height: 55%;
+	border-radius: 20px;
+	padding: 10px;
+	position: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	opacity: 1;
+	transition: 0.3s;
+}
+.centraliza{
+	text-align: center;
+}
+.card__v1{
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0 0 1em black;
+}
+.espaco{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+	height: 20%;
+	
+}
+
+@media(max-width: 990px){
+
+
+	/*logo do Header*/
+	#logo_header{
+		display: none;
+	}
+
+
+}
